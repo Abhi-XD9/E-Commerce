@@ -1,0 +1,508 @@
+.navbar{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+}
+.navlink-container{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+.icons{
+  margin-left: 2rem;
+  margin-right: 2rem;
+ 
+}
+.icons svg{
+  padding: 0.3rem;
+}
+
+.navform{
+  margin-right: 8rem;
+}
+.brand{
+  height: 5rem;
+  width: 80%;
+  margin-left: 2rem;
+}
+#navlink{
+  font-size: 1.2rem;
+  color:#342424;
+  font-family: "Poppins";
+}
+
+#navlink:hover{
+  text-decoration:overline;
+  color: #6e685e;
+}
+
+.icons:hover svg{
+  color:#ccc4B7;
+  background-color: #342424;
+  border-radius: 20%;
+}
+
+#nav-btn{
+  background-color: #342424;
+  color: #ccc4B7;
+  font-family: "poppins";
+}
+
+#nav-btn:hover{
+  background-color: #ccc4B7;
+  color: #342424;
+}
+
+.products-cont{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  
+}
+
+.products-cont li{
+  list-style-type: none;
+  border: 1px solid #ccc4B7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.products-cont li h2{
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  color: #342424;
+  margin-top: 1rem;
+  
+}
+
+.products-cont img{
+  width: 40%;
+  margin: 0.5rem;
+}
+
+.item-btn-cont{
+ width: 90%;
+}
+
+.product-cont-1{
+  height: 100%;
+  align-content: center;
+}
+
+.product-cont-2 p{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #29a72f;
+}
+
+.add-btn{
+  background-color:  #ccc4B7;
+  color: #342424;
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Poppins";
+  cursor: pointer;
+  border-radius: 10%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.add-btn:hover{
+background-color:#342424;
+color: white;
+}
+
+.like-btn{
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: white;
+  border: none;
+  color:#bbb6af;
+}
+.like-btn:hover{
+ color: red;
+}
+
+.swipercard img{
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.swiper-container{
+  width:90vw;
+  max-height: 100vh;
+  margin-left: 5%;
+}
+
+.headings{
+  font-size: 3rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #342424;
+}
+
+/* Fashionpage */
+
+.fashion h1{
+  font-size: 4rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #342424;
+  margin-top: 2rem;
+}
+
+.fashion p{
+  font-size: 1.5rem;
+  font-family:'Poppins';
+  margin-bottom: 2rem;
+}
+
+
+.cart-head{
+  font-size: 5rem;
+  font-family: 'Poppins';
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  border: solid 1px #6e685e;
+  border-radius: 50px;
+  color: #6e685e;
+}
+
+
+.cart-prod-cont img{
+  width: 100px;
+  margin-left:2rem;
+  border-radius: 10px;
+}
+
+.cart-prod-cont li{
+  width:100%;
+  margin: 1rem;
+  border: solid 1px #ccc4B7;
+  padding: 0.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-prod-cont h2{
+  font-size: 0.8rem;
+}
+.btn-cont{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn-cont-2 button{
+  border: none;
+}
+.product-cart-2{
+  width: 100%;
+  margin-left: 5rem;
+}
+
+.product-cart-2  h2{
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  color: #342424;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.product-cart-2 p{
+  color: #29a72f;
+}
+
+.cart-prod-cont li h3{
+  font-size: 1.2rem;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#6e685e;
+ margin-right: 1rem;
+  width: 50%;
+}
+
+
+.total{
+  font-family: 'poppins';
+  font-size: 1.5rem;
+  margin: 2rem;
+  color:#6e685e;
+  font-weight: bold;
+  
+}
+
+.addbtn-cont{
+  width: 100%;
+}
+
+.total h1{
+  font-size: 1.5rem;
+  color: #342424;
+}
+
+.btn-1{
+  border: none;
+  background-color: white;
+}
+
+.btn-1:hover{
+  color: rgb(228, 57, 57);
+}
+
+.buttons-cart button {
+  font-family: "Poppins";
+}
+.buttons-cart button:hover{
+  background-color:#ccc4B7;
+  color:#342424;
+}
+
+.footer{
+ padding-top: 2rem;
+  border: solid 1px #ccc4B7;
+  color:#342424;
+  margin-top: 2rem;
+}
+
+.footer li{
+  list-style: none;
+}
+.footer li a{
+  text-decoration: none;
+  color: #6e685e;
+}
+
+.sitename{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #342424;
+  text-decoration: none;
+}
+.logo{
+  text-decoration: none;
+}
+.form{
+  padding: 1rem;
+  border: solid 1px #ccc4B7;
+  border-radius: 0.5rem;
+}
+
+.form input{
+  margin-bottom: 1rem;
+}
+.form textarea{
+  margin-bottom: 1rem;
+}
+.form label{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #342424;
+  padding-bottom: 5px;
+}
+.form-cont-1{
+  margin-right: 2rem;
+}
+
+.main-cont{
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.check-cont{
+  color: #342424;
+}
+
+.check-cont h3{
+  font-family:"Poppins";
+  color: black;
+  font-size: 1rem;
+}
+
+.check-cont h2{
+  font-family: "Poppins";
+  color: black;
+  font-size: 1.5rem;
+}
+
+.check-cont p{
+  font-family: "Poppins";
+}
+
+.check-cont h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-check{
+  border: solid whitesmoke 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+ 
+}
+
+.paymen-cont{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.check-cont h4{
+ font-size:1.8rem; 
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.paym-main-cont{
+  padding:3rem;
+}
+
+.heading{
+  margin-left: 8rem;
+}
+
+/* Responsive styles for screen width less than 450px */
+@media (max-width: 450px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .navlink-container {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+  .navlink-container a, #navlink {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+  .navform{
+    margin-bottom: 10px;
+  }
+  .icons {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .navform {
+    margin-right: 0;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .brand {
+    height: 3rem;
+    width: 60%;
+    margin-left: 1rem;
+  }
+  .products-cont {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  .products-cont img {
+    width: 80%;
+    margin: 0.5rem auto;
+  }
+  .products-cont li h2 {
+    font-size: 1rem;
+  }
+  .add-btn {
+    font-size: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .footer li a {
+    font-size: 0.9rem;
+  }
+  .sitename {
+    font-size: 1.2rem;
+  }
+  .cart-prod-cont img {
+    width: 60px;
+    margin-left: 0.5rem;
+  }
+  .cart-prod-cont li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-prod-cont li h2 {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .product-cart-2 {
+    max-width: 70%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    text-align: center;
+  }
+  .product-cart-2 h2 {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+  }
+  .product-cart-2 p {
+    font-size: 0.9rem;
+  }
+  .cart-prod-cont li h3 {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    width: auto;
+  }
+  .total {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .total h1 {
+    font-size: 1.2rem;
+  }
+  .btn-cont {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .btn-cont-2 button {
+    width: 100%;
+  }
+  .form-cont-1 {
+    margin-right: 0;
+  }
+  .main-cont {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .check-cont h3 {
+    font-size: 0.8rem;
+  }
+  .check-cont h2 {
+    font-size: 1.2rem;
+  }
+  .paymen-cont {
+    grid-template-columns: 1fr;
+  }
+  .paym-main-cont {
+    padding: 1rem;
+  }
+  .heading {
+    margin-left: 0;
+  }
+  .fashion h1, .fashion p {
+    font-size: 1.5rem;
+  }
+  .cart-head {
+    font-size: 2rem;
+  }
+  .cart-prod-cont li .btn-cont {
+    width: 100%;
+  }
+}
